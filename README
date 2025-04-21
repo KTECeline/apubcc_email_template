@@ -1,0 +1,8 @@
+1. npm install mjml
+2. This one for onboarding one 
+npx mjml index.mjml -o output.html
+start output.html
+
+3. This one for evet one
+npx mjml index1.mjml -o event.html
+start event.html
