@@ -34,7 +34,7 @@
       </mj-column>
     </mj-section>
 
-    <!-- Spacer for visual separation -->
+    
     <mj-section padding="0px">
       <mj-column>
         <mj-spacer height="0px" />
@@ -48,13 +48,13 @@
         <mj-text font-size="22px" font-weight="600" color="#1F2937" align="center" padding-bottom="20px">
           Hey there, Crypto Explorer! 🎉
         </mj-text>
-        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px">
-          We're thrilled to have you join the <strong>APUBCC crew</strong>! You're now part of a vibrant community diving deep into the world of Blockchain and Crypto. Ready to vibe with us?
+        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px" align="center">
+          We're thrilled to have you join <strong>APUBCC</strong>! You're now part of a vibrant community diving deep into the world of Blockchain and Crypto. Ready to vibe with us?
         </mj-text>
-        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px">
+        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px" align="center">
           Kick things off by joining our <strong>WhatsApp group</strong>. It's the place to catch the latest news, dive into exciting quests, flex your skills, and maybe even snag some epic giveaways! 🎁
         </mj-text>
-        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px">
+        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px" align="center">
           Don’t hold back — say hi 👋, join the convos, check out events, and share your thoughts. Got questions? Our squad’s got you covered. Kick start by joining our Discord channel and Whatsapp!
         </mj-text>
         <mj-text font-size="16px" font-weight="500" font-style="italic" color="#6B46C1" align="center" padding-bottom="30px">
