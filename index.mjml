@@ -1,0 +1,103 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" />
+    <mj-attributes>
+      <mj-text font-family="Poppins, Helvetica, Arial, sans-serif" color="#333333" />
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-button font-family="Poppins, Helvetica, Arial, sans-serif" font-weight="600" />
+    </mj-attributes>
+    <mj-style>
+      .gradient-bg {
+  background: linear-gradient(135deg, #c9b89b 0%, #e8d1bc 100%);}
+    
+      .shadow-box {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      .hover-scale:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F3F4F6">
+    <!-- Header Section with Gradient -->
+    <mj-section css-class="gradient-bg" padding="0px">
+      <mj-column>
+        <mj-image src="./public/APUBCC horizontal new white font (without bg).png" alt="APUBCC Logo" width="180px" align="center" padding="10px" />
+        <mj-text font-size="28px" font-weight="700" color="#FFFFFF" align="center" padding="10px 0">
+          Welcome to APUBCC!
+        </mj-text>
+        <mj-text font-size="16px" font-weight="300" color="#FFFFFF" align="center">
+          Your journey into Blockchain & Crypto starts here 🚀
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Spacer for visual separation -->
+    <mj-section padding="0px">
+      <mj-column>
+        <mj-spacer height="0px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Main Content Section -->
+    <mj-section background-color="#e6e2d7" css-class="shadow-box" padding="40px 20px">
+      <mj-column>
+      <mj-image src="./public/mainPic.JPG" alt="APUBCC Main Pic" width="1800px" align="center" padding="10px" />
+        <mj-text font-size="22px" font-weight="600" color="#1F2937" align="center" padding-bottom="20px">
+          Hey there, Crypto Explorer! 🎉
+        </mj-text>
+        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px">
+          We're thrilled to have you join the <strong>APUBCC crew</strong>! You're now part of a vibrant community diving deep into the world of Blockchain and Crypto. Ready to vibe with us?
+        </mj-text>
+        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px">
+          Kick things off by joining our <strong>WhatsApp group</strong>. It's the place to catch the latest news, dive into exciting quests, flex your skills, and maybe even snag some epic giveaways! 🎁
+        </mj-text>
+        <mj-text font-size="16px" line-height="1.7" color="#4B5563" padding-bottom="20px">
+          Don’t hold back — say hi 👋, join the convos, check out events, and share your thoughts. Got questions? Our squad’s got you covered. Kick start by joining our Discord channel and Whatsapp!
+        </mj-text>
+        <mj-text font-size="16px" font-weight="500" font-style="italic" color="#6B46C1" align="center" padding-bottom="30px">
+          Let’s build, vibe, and win together. WAGMI! 💎
+        </mj-text>
+        <!-- Discord and Whatsapp Join Button -->
+        <mj-button href="https://discord.gg/YWtjBtg6Pp" background-color="#5967f1" color ="#FFFFFF" font-size="16px" padding="16px 32px" css-class="hover-scale">
+        Hop in the Discord Channel!</mj-button>
+        <mj-button href="https://chat.whatsapp.com/Egk4wDP5vowJnJO12oPRQL" background-color="#10c346" color ="#FFFFFF" font-size="16px" padding="16px 32px" css-class="hover-scale">
+        APUBCC Coolkids Whatsapp Channel!</mj-button>
+      </mj-column>
+    </mj-section>
+
+    
+
+    <!-- Social Media Section -->
+    <mj-section background-color="#e6e2d7" padding="20px 20px" >
+      <mj-column>
+        <mj-text font-size="18px" font-weight="600" color="#1F2937" align="center" padding-bottom="20px">
+          Stay Connected
+        </mj-text>
+        <mj-social font-size="14px" icon-size="40px" mode="horizontal" padding="0" align="center">
+          <mj-social-element name="twitter-noshare" href="https://x.com/apubcc" background-color="transparent" src="./public/X.png" padding="10px" />
+          <mj-social-element name="instagram-noshare" href="https://www.instagram.com/apubcc" background-color="transparent" src="./public/Insta.png" padding="10px" />
+          <mj-social-element name="whatsapp-noshare" href="https://chat.whatsapp.com/Egk4wDP5vowJnJO12oPRQL" background-color="transparent" src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful/2048/5302_-_Whatsapp-512.png" padding="10px" />
+          <mj-social-element name="substack-noshare" href="https://apubcc.substack.com/" background-color="transparent" src="./public/substack.png" padding="10px" />
+          <mj-social-element name="youtube-noshare" href="https://www.youtube.com/@apubcc" background-color="transparent" src="./public/YT.png" padding="10px" />
+          <mj-social-element name="linkedin-noshare" href="https://www.linkedin.com/company/apu-blockchain-crypto-club-apu-bcc/" background-color="transparent" src="./public/LinkIn.png" padding="10px" />
+          <mj-social-element name="discord-noshare" href="https://discord.gg/YWtjBtg6Pp" background-color="transparent" src="./public/DC.png" padding="10px" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section background-color="#1F2937" padding="10px">
+      <mj-column>
+        <mj-text font-size="12px" color="#D1D5DB" align="center">
+          © 2025 APUBCC - Asia Pacific University Blockchain and Cryptocurrency Club
+        </mj-text>
+        <mj-text font-size="12px" color="#9CA3AF" align="center" padding-top="10px">
+          Built with 💜 for the future of tech
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
